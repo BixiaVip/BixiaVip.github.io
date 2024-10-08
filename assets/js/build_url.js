@@ -1,5 +1,5 @@
 function build_url(){
     var url = encodeURI(document.querySelector('#url').value);
-    url = "https://gyzuike.github.io/api/?url=" + url;
+    url = "https://bixiavip.github.io/api/?url=" + url;
     document.getElementById("b_url").innerHTML=`<a href=${url} target='_blank'>${url}</a>`;
 }
